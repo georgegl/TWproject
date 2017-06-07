@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="petitionview.css">
+    <link rel="stylesheet" href="commonview.css">
+    <meta charset="UTF-8">
+    <title>Petition view</title>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<header class="mainheader">
+    <a href="/"><img class="mainlogo" src="images/newlogo.png"></a>
+    <menu>
+        <ul class="menu">
+            <li class="createmenu"><a href="createpage.html">Create petition</a></li>
+            <li class="searchmenu"><a href="searchpage.html">Search petition</a></li>
+            <li class="registermenu"><a href="registerpage.html">Login or Register</a></li>
+            <li class="contactmenu"><a href="contactpage.html">Contact us</a></li>
+        </ul>
+    </menu>
+    <a class='controlpanel' href="controlpanel.html"></a>
+</header>
+
+<div class="petitioninfo">
+    <h1>%title%</h1>
+    <div class="petitionviewspacer"></div>
+    <h2>Author: %author%</h2>
+    <h3>Status: %status%</h3>
+    <div class="petitionviewspacerauthor"></div>
+    <h3>Description</h3>
+    <p>%description%</p>
+    <p>Signed %signs% times of total %signgoal% needed!</p>
+    <div class="fb-share-button" data-href="http://localhost:3333/petitionview.html?id=1" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A3333%2Fpetitionview.html%3Fid%3D1&amp;src=sdkpreparse">Share</a></div>
+</div>
+<div class="signform">
+    <form method="post" action="petitionview.html">
+        <label>First name</label>
+        <input type="text" name="firstName" required="required" maxlength="30">
+        <label>Last name</label>
+        <input type="text" name="lastName" required="required" maxlength="30">
+        <label>Email</label>
+        <input type="email" name="email" required="required" maxlength="30">
+        <label>Country (optional)</label>
+        <input type="text" name="country" maxlength="30">
+        <button class='petitionviewbutton' name="petid" value="%petitionid%" type="submit">Sign</button>
+    </form>
+</div>
+
+
+
+<div class="emptyspacer"></div>
+
+<div class="footer">
+    <p>By using our website your agree to our <a href="">Terms and Conditions</a>, please take some time to read that information.</p>
+</div>
+
+
+</body>
+</html>

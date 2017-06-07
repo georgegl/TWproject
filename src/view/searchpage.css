@@ -1,0 +1,61 @@
+.searchform{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.searchimage{
+    width:30px;
+    margin-right: 115px;
+    float: right;
+    margin-top:3px;
+}
+
+.searchpetition{
+    margin-left:10px;
+    font-size:25px;
+    margin-top: 9px;
+    float: left;
+    width:500px;
+}
+
+.searchpetitiontext{
+    float:left;
+    font-size:25px;
+    display:inline-block;
+}
+
+.listpetitions{
+    margin-left:30px;
+    border: 1px solid darkkhaki;
+    display:inline-block;
+    width:850px;
+    margin-top:30px;
+
+}
+
+div[class=listpetitions] > p {
+    margin-left:5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    width:98%;
+}
+
+.visitpetitionbutton{
+    font-size:15px;
+    margin-left: 680px;
+    margin-bottom: 10px;
+}
+
+.emptyspacer{
+    height:50px;
+}
+
+.standbytext{
+    margin-top: 5%;
+    margin-left: 34%;
+}
+
+.createdby{
+    margin-top:20px;
+}

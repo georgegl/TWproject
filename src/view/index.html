@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mainmenu.css">
+    <link rel="stylesheet" href="commonview.css">
+    <meta charset="UTF-8">
+    <title>Change the world</title>
+</head>
+<body class="mainbody">
+
+    <header class="mainheader">
+        <a href="/"><img class="mainlogo" src="images/newlogo.png"></a>
+        <menu>
+            <ul class="menu">
+                <li class="createmenu"><a href="createpage.html">Create petition</a></li>
+                <li class="searchmenu"><a href="searchpage.html">Search petition</a></li>
+                <li class="registermenu"><a href="registerpage.html">Login or Register</a></li>
+                <li class="contactmenu"><a href="contactpage.html">Contact us</a></li>
+            </ul>
+        </menu>
+        <a class='controlpanel' href="controlpanel.html"></a>
+    </header>
+    <img class="makeadif" src="images/makeadifferencelogo.png">
+
+
+    <a href="createpage.html"><div class="bigbutton">Create a petition now!</div></a>
+
+    <h2>Open petitions:</h2>
+    <div class="listpetitions">
+        <p>Title: %title0%</p>
+        <p>Author: %author0%</p>
+        <p>Description: %description0%</p>
+        <p>Signed %signs0% times, need total of %signgoal0%</p>
+        <form method='get' action="petitionview.html">
+            <button class="signmebutton" name="id" value="1" type="submit">Visit</button>
+        </form>
+
+    </div>
+    <div class="listpetitions">
+        <p>Title: %title1%</p>
+        <p>Author: %author1%</p>
+        <p>Description: %description1%</p>
+        <p>Signed %signs1% times, need total of %signgoal1%</p>
+        <form method='get' action="petitionview.html">
+            <button class="signmebutton" name="id" value="2" type="submit">Visit</button>
+        </form>
+    </div>
+    <div class="listpetitions">
+        <p>Title: %title2%</p>
+        <p>Author: %author2%</p>
+        <p>Description: %description2%</p>
+        <p>Signed %signs2% times, need total of %signgoal2%</p>
+        <form method='get' action="petitionview.html">
+            <button class="signmebutton" name="id" value="3" type="submit">Visit</button>
+        </form>    </div>
+    <div class="listpetitions">
+        <p>Title: %title3%</p>
+        <p>Author: %author3%</p>
+        <p>Description: %description3%</p>
+        <p>Signed %signs3% times, need total of %signgoal3%</p>
+        <form method='get' action="petitionview.html">
+            <button class="signmebutton" name="id" value="4" type="submit">Visit</button>
+        </form>
+    </div>
+
+    <div class="emptyspacer"></div>
+
+    <div class="footer">
+    <p>By using our website your agree to our <a href="">Terms and Conditions</a>, please take some time to read that information.</p>
+</div>
+
+</body>
+</html>

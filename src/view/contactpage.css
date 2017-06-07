@@ -1,0 +1,52 @@
+input{
+    font-size:18px;
+}
+
+div{
+    display:inline-block;
+    margin-top:80px;
+}
+
+.contactform{
+    width:400px;
+}
+
+.question{
+    height: 100px;
+    resize:none;
+    margin-top:5px;
+    width:300px;
+    font-size:18px;
+}
+
+.submit{
+    margin-top:10px;
+    margin-left:170px;
+}
+.email{
+    margin-left:33px;
+}
+.name{
+    margin-left:28px;
+}
+
+form > input[type=text] {
+    margin-top:5px;
+    width:300px;
+}
+
+.spacerline{
+    display:inline-block;
+    width:2px;
+    height:200px;
+    background-color:#aaaaaa;
+    margin-left:80px;
+}
+
+.emailimage{
+    margin-left:88px;
+}
+
+.contactlogo{
+    margin-left:25%;
+}

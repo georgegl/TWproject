@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="createpage.css">
+    <link rel="stylesheet" href="commonview.css">
+    <meta charset="UTF-8">
+    <title>Create petition</title>
+</head>
+<body>
+<header class="mainheader">
+    <a href="/"><img class="mainlogo" src="images/newlogo.png"></a>
+    <menu>
+        <ul class="menu">
+            <li class="createmenu"><a href="createpage.html">Create petition</a></li>
+            <li class="searchmenu"><a href="searchpage.html">Search petition</a></li>
+            <li class="registermenu"><a href="registerpage.html">Login or Register</a></li>
+            <li class="contactmenu"><a href="contactpage.html">Contact us</a></li>
+        </ul>
+    </menu>
+    <a class='controlpanel' href="controlpanel.html"></a>
+</header>
+<img class="changeworldimage" src="images/change_the_world.jpg">
+<div class="motivationaltext">
+    <p>Do your best to change the world! Be the change!</p>
+    <p>For help or questions please check the <a href="contactpage.html">contact page</a>!</p>
+</div>
+
+<div class="createform">
+    <form method="post" >
+        <div>Title</div>
+        <input type="text" name="title" maxlength="100" required="required">
+        <div>Recipient</div>
+        <input type="text" name="recipient" maxlength="100" required="required" >
+        <div>Signature goal</div>
+        <input type="number" name="signaturegoal"  maxlength="10" required="required" >
+        <div>Amount of days petition is open </div>
+        <input type="number" name="amountdays"  maxlength="10" required="required" >
+        <div>Description</div>
+        <textarea maxlength="500" required="required" name="description"></textarea>
+        <input name="createpetition" type="submit">
+
+    </form>
+</div>
+
+<div class="emptyspacer"></div>
+
+<div class="footer">
+    <p>By using our website your agree to our <a href="">Terms and Conditions</a>, please take some time to read that information.</p>
+</div>
+
+
+</body>
+</html>

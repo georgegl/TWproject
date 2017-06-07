@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="registerpage.css">
+    <link rel="stylesheet" href="commonview.css">
+    <meta charset="UTF-8">
+    <title>Register page</title>
+</head>
+<body>
+<header class="mainheader">
+    <a href="/"><img class="mainlogo" src="images/newlogo.png"></a>
+    <menu>
+        <ul class="menu">
+            <li class="createmenu"><a href="createpage.html">Create petition</a></li>
+            <li class="searchmenu"><a href="searchpage.html">Search petition</a></li>
+            <li class="registermenu"><a href="registerpage.html">Login or Register</a></li>
+            <li class="contactmenu"><a href="contactpage.html">Contact us</a></li>
+        </ul>
+    </menu>
+    <a class='controlpanel' href="controlpanel.html"></a>
+</header>
+<img class="peopleimage" src="images/peopleimage.png">
+<div class="registerform">
+    <span>Register now!</span>
+<form method="post">
+    <label>First name:</label>
+    <input class="firstNameRegister"type="text" name="firstName" maxlength="30" required="required">
+    <label>Last name:</label>
+    <input class="lastNameRegister" type="text" name="lastName" maxlength="30" required="required">
+    <label>Username:</label>
+    <input class="userNameRegister" type="text" name="userNameRegister" maxlength="30" required="required">
+    <label>Email:</label>
+    <input class="email" type="email" name="email" maxlength="30">
+    <label>Password:</label>
+    <input class="passwordRegister" type="password" name="passwordRegister" maxlength="30" required="required">
+    <label class="message"></label>
+    <input class="registerButton" type="submit" name="registerbutton" value="Register">
+</form>
+</div>
+
+<span class="or">OR</span>
+
+<div class="loginform">
+    <div>Log into an existing account!</div>
+    <form method="post" >
+        <label>Username:</label>
+        <input type="text" name="userNameLogin" maxlength="30">
+        <label>Password:</label>
+        <input class="passwordLogin" type="password" name="passwordLogin" maxlength="30">
+        <label class="loginmessage"></label>
+        <input class="loginButton" type="submit" value="Login">
+
+    </form>
+</div>
+<div class="motivationaltext"><p>Join now our community of thousands of people that share their ideas and dreams! The change starts with you !</p>
+    <p>We stand united to people who really want to do the right thing!</p>
+    <p>You are the people!</p>
+</div>
+
+<div class="footer">
+    <p>By using our website your agree to our <a href="">Terms and Conditions</a>, please take some time to read that information.</p>
+</div>
+
+
+</body>
+</html>

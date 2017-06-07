@@ -1,0 +1,59 @@
+.emptyspacer{
+    height:50px;
+}
+
+.petitioninfo{
+    width:60%;
+    display:inline-block;
+    float:left;
+}
+
+form > input {
+    display:block;
+    width: 240px;
+    font-size: 18px;
+}
+
+form > label {
+    margin-left:10px;
+}
+
+form > input[type=submit]{
+    margin-top:10px;
+    width:150px;
+    margin-left:50px;
+}
+
+.signform{
+    margin-top: 130px;
+    margin-left: 50px;
+    display:inline-block;
+}
+
+form {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkkhaki;
+    border-radius: 9px;
+    padding: 15px;
+}
+
+.petitionviewspacer{
+    width: 350px;
+    height: 1px;
+    background: darkkhaki;
+}
+
+.petitionviewspacerauthor{
+    width: 450px;
+    height: 1px;
+    background: darkkhaki;
+}
+
+.petitionviewbutton{
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="searchpage.css">
+    <link rel="stylesheet" href="commonview.css">
+    <meta charset="UTF-8">
+    <title>Search page</title>
+</head>
+<body>
+<header class="mainheader">
+    <a href="/"><img class="mainlogo" src="images/newlogo.png"></a>
+    <menu>
+        <ul class="menu">
+            <li class="createmenu"><a href="createpage.html">Create petition</a></li>
+            <li class="searchmenu"><a href="searchpage.html">Search petition</a></li>
+            <li class="registermenu"><a href="registerpage.html">Login or Register</a></li>
+            <li class="contactmenu"><a href="contactpage.html">Contact us</a></li>
+        </ul>
+    </menu>
+    <a class='controlpanel' href="controlpanel.html"></a>
+</header>
+<form method="post" class="searchform">
+<div class="searchpetitiontext">Search petition:</div>
+<input class="searchpetition" type="search" name="searchpetition" placeholder="Type here to search..." maxlength="30">
+    <input type="image" class="searchimage" src="images/searchbutton.png">
+    <label>Filter by author:</label>
+    <input class='createdby'type="text" name="createdby">
+</form>
+
+<div class="standbytext"> Waiting for an action...</div>
+
+<div class="emptyspacer"></div>
+
+<div class="footer">
+    <p>By using our website your agree to our <a href="">Terms and Conditions</a>, please take some time to read that information.</p>
+</div>
+
+
+</body>
+</html>

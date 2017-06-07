@@ -1,0 +1,56 @@
+.bigbutton{
+    margin-left:413px;
+    margin-top:20px;
+    background-color:#b41f46;
+    color:#fff;
+    width:500px;
+    line-height: 65px;
+    text-align: center;
+    font-size:35px;
+}
+
+.bigbutton:hover{
+    background-color:#bc4363;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.makeadif{
+    margin-top:40px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listpetitions{
+    margin-left:30px;
+    border: 1px solid darkkhaki;
+    display:inline-block;
+    width:400px;
+    margin-top:30px;
+
+}
+
+div[class=listpetitions] > p {
+    margin-left:5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    width:98%;
+}
+
+.signmebutton{
+    margin-left: 300px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+.emptyspacer{
+    height:50px;
+}
+
+
+
+
+

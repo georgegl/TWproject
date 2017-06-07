@@ -1,0 +1,107 @@
+body{
+    margin: 13px 240px 0 270px;
+    background: url("images/layouttw.png") no-repeat;
+    background-size:1450px;
+    background-attachment:fixed;
+}
+
+menu{
+    float:right;
+    width:668px;
+    margin:0;
+    padding:0;
+}
+
+header{
+    margin:auto;
+}
+
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 148px;
+    line-height: 80px;
+    text-align: center;
+    color:#fff;
+}
+
+
+li{
+    float:left;
+    margin-left:15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.createmenu{
+    background-color:#4a2f99;
+}
+
+.createmenu:hover{
+    background-color:#6c5b9e;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.searchmenu{
+    background-color:#8e0095;
+}
+
+.searchmenu:hover {
+    background-color:#9c51a0;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.registermenu{
+    background-color:#008a9b;
+}
+
+.registermenu:hover{
+    background-color:#599fa8;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.contactmenu{
+    background-color:#008601;
+}
+
+.contactmenu:hover {
+    background-color: #5ba05c;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:33px;
+    width:100%;
+    background-color: #a09d85;
+}
+
+div[class=footer] > p {
+    margin-left:280px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.controlpanel {
+    margin-left:90%;
+}
+
+.buttonlistpetition{
+    margin-left: 65%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

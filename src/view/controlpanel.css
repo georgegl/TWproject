@@ -1,0 +1,55 @@
+
+.listpetitions{
+    margin-left:30px;
+    border: 1px solid darkkhaki;
+    display:inline-block;
+    width:800px;
+    margin-top:10px;
+
+}
+
+div[class=listpetitions] > p {
+    margin-left:5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    width:98%;
+}
+
+
+.accountdetailstext{
+    margin-top:10px;
+    font-size:20px;
+}
+
+.yourpetitionstext{
+    margin-top:10px;
+    font-size:20px;
+}
+
+a > span {
+    margin-left: 20px;
+}
+
+.accountdetailsspacer{
+    width: 150px;
+    margin-bottom: 3px;
+    margin-top: 6px;
+    height: 2px;
+    background: darkkhaki;
+}
+
+.emptyspacer{
+    height:50px;
+}
+
+.deletebutton{
+    display:inline;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+form{
+    display:inline;
+
+}

@@ -1,0 +1,71 @@
+input{
+    font-size:18px;
+    margin-top:5px;
+}
+
+.registerform{
+    display:inline-block;
+    margin-top:30px;
+    font-size:18px;
+    width:290px;
+    margin-left:100px;
+    float:left;
+}
+
+.loginform{
+    display:inline-block;
+    font-size:18px;
+    width:300px;
+    margin-top:80px;
+}
+
+.peopleimage{
+    margin-top:10px;
+    margin-left:30px;
+}
+
+.firstNameRegister{
+    margin-left:3px;
+}
+.lastNameRegister{
+    margin-left:5px;
+}
+
+.email{
+    margin-left:38px;
+}
+
+.userNameRegister{
+    margin-left:7px;
+}
+
+.passwordRegister{
+    margin-left:10px;
+    margin-bottom:5px;
+}
+
+.registerButton{
+    margin-left:110px;
+}
+
+.or{
+    font-size:50px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.passwordLogin{
+    margin-left:5px;
+}
+
+.loginButton{
+    margin-left:110px;
+}
+
+.motivationaltext{
+    overflow:auto;
+    width:100%;
+}
+a{
+    text-decoration: none;
+}
